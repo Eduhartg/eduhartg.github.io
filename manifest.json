@@ -1,0 +1,34 @@
+{
+    "name": "NOVOFARMA S.A. PWA",
+    "short_name": "NovoPWA",
+    "description": "Aplicación PWA para NOVOFARMA",
+    "background_color": "#FFF",
+    "theme_color": "FB314E",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./index.html?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-ES",
+    "icons": [
+        {
+           "src": "./img/logo.png",
+           "sizes": "360x71",
+           "type": "image/png"
+        },
+        {
+           "src": "./img/logo_header.png",
+           "sizes": "250x74",
+           "type": "image/png"
+        },
+        {
+           "src": "./img/logo_mini.png",
+           "sizes": "48x54",
+           "type": "image/png"
+        },
+        {
+            "src": "./img/logo-fav.png",
+            "sizes": "33x32",
+            "type": "image/png"
+        }
+    ]
+}
